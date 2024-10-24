@@ -1,12 +1,12 @@
 # rspack-externals-error
-
+Discovered issues while developing [Gez](https://github.com/dp-os/gez/tree/feat-rspack)
 ## Quick start
 ```bash
 pnpm i
 pnpm build
 ```
 ## Issue
-1. rspack.config.js set
+1. rspack.config.js
 ```js
 {
     externals: ['test2']
