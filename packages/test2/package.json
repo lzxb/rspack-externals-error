@@ -1,0 +1,19 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "RUST_BACKTRACE=full rspack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^2.7.16",
+    "@rspack/cli": "1.0.14",
+    "@rspack/core": "1.0.14"
+  }
+}
