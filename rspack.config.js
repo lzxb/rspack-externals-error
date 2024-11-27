@@ -1,8 +1,14 @@
 export default {
     target: 'node20',
     entry: {
-        test1: {
-            import: 'test1',
+        index: {
+            import: './src/index.js',
+            library: {
+                type: 'modern-module'
+            }
+        },
+        types: {
+            import: './src/types.js',
             library: {
                 type: 'modern-module'
             }
@@ -12,6 +18,7 @@ export default {
         outputModule: true
     },
     optimization: {
+        concatenateModules: true,
         minimize: false
     },
     externals: ['test2'],
