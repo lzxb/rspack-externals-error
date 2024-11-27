@@ -4,7 +4,7 @@ export default {
         test1: {
             import: 'test1',
             library: {
-                type: 'module'
+                type: 'modern-module'
             }
         },
     },
@@ -14,5 +14,6 @@ export default {
     optimization: {
         minimize: false
     },
-    externals: ['test2']
+    externals: ['test2'],
+    mode: 'development'
 };
